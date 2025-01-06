@@ -1,0 +1,118 @@
+{
+    "scores": {
+        "Main_Task": {
+            "Understanding": 0.7528289956712652,
+            "Reasoning": 0.7138633376891471,
+            "Locating": 0.7401614170848196
+        },
+        "Element_Type": {
+            "Text": 0.7258083984767613,
+            "Layout": 0.6545634279078363,
+            "Figure": 0.7912862567089185,
+            "Table": 0.8089364742923869
+        },
+        "Evidence_Pages": {
+            "Single_Page": 0.9002744739249772,
+            "Multi_Page": 0.6036127952675057
+        },
+        "Num_of_Element_Types": {
+            "Cross_Element": 0.745170396077998
+        },
+        "Fine_Grained": {
+            "Understanding": {
+                "Single_Page": {
+                    "Text": 0.9073359073359073,
+                    "Layout": 0.8901098901098901,
+                    "Figure": 0.925531914893617,
+                    "Table": 0.9011406844106464
+                },
+                "Multi_Page": {
+                    "Text": 0.6302384535454512,
+                    "Layout": 0.5486190311942706,
+                    "Figure": 0.6507822477650065,
+                    "Table": 0.5737060041407868
+                }
+            },
+            "Reasoning": {
+                "Single_Page": {
+                    "Text": 0.9,
+                    "Layout": 0.9166666666666666,
+                    "Figure": 1.0,
+                    "Table": 0.8979591836734694
+                },
+                "Multi_Page": {
+                    "Text": 0.5986170990135183,
+                    "Layout": 0.6032563025210085,
+                    "Figure": 0.5849299719887955,
+                    "Table": 0.5293354391180479
+                }
+            },
+            "Locating": {
+                "Cross_Element": {
+                    "Cross_Title": 0.5518005212035062,
+                    "Cross_Table": 0.6832010582010583,
+                    "Para_Title": 0.747568954589135,
+                    "Figure_Table": 0.9307359307359307
+                }
+            }
+        }
+    },
+    "sample_cnt": {
+        "Main_Task": {
+            "Understanding": 1243,
+            "Reasoning": 387,
+            "Locating": 695
+        },
+        "Element_Type": {
+            "Text": 994,
+            "Layout": 779,
+            "Figure": 556,
+            "Table": 871
+        },
+        "Evidence_Pages": {
+            "Single_Page": 1093,
+            "Multi_Page": 1230
+        },
+        "Num_of_Element_Types": {
+            "Cross_Element": 862
+        },
+        "Fine_Grained": {
+            "Understanding": {
+                "Single_Page": {
+                    "Text": 259,
+                    "Layout": 91,
+                    "Figure": 94,
+                    "Table": 263
+                },
+                "Multi_Page": {
+                    "Text": 443,
+                    "Layout": 172,
+                    "Figure": 174,
+                    "Table": 115
+                }
+            },
+            "Reasoning": {
+                "Single_Page": {
+                    "Text": 40,
+                    "Layout": 12,
+                    "Figure": 28,
+                    "Table": 98
+                },
+                "Multi_Page": {
+                    "Text": 115,
+                    "Layout": 40,
+                    "Figure": 85,
+                    "Table": 69
+                }
+            },
+            "Locating": {
+                "Cross_Element": {
+                    "Cross_Title": 201,
+                    "Cross_Table": 126,
+                    "Para_Title": 137,
+                    "Figure_Table": 231
+                }
+            }
+        }
+    }
+}
